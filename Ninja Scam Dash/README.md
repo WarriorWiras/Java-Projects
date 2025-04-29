@@ -1,69 +1,84 @@
-# Ninja Scam Dash
+# 🥷💎 Ninja Scam Dash 
 
-## About The Project
+**Ninja Scam Dash** is a fun, educational 2D side-scrolling game where players run, dodge, and answer scam-prevention quizzes to win! Built with **Java**, powered by a custom-made **Game Engine**, and managed with **Gradle**. 🎮✨
 
-**Ninja Scam Dash** is an exciting educational 2D game designed to **raise awareness about scam prevention** through interactive gameplay. Players control a ninja, navigate obstacles, collect power-ups, and answer scam-prevention questions to progress.  
-This game was developed to **test and showcase a custom-built game engine**, designed following strict **Object-Oriented Programming (OOP)** and **SOLID design principles**, using **Java** and **Gradle** for project management.
-
-Our main goal was not only to create a fun and engaging game but also to design and implement a flexible, reusable, and scalable **Game Engine**.
+> 📌 **Developed as part of an Object-Oriented Programming project at [Singapore Institute of Technology] (2025).**
 
 ---
 
-## Built With
+## 🌟 Game Highlights
 
+- 🚀 Fast-paced ninja gameplay with scam prevention education
+- 🎯 Collision-triggered quiz challenges
+- 🎮 Fully customizable controls (WASD and beyond)
+- 🔥 Randomized spawning of obstacles and power-ups
+- 🎵 Background music and sound effects managed with a Singleton AudioManager
+- 🖼️ Dynamic scene transitions (Menu, Game, Pause, Win, Game Over, Questions)
+- 💖 Health and Diamond UI display for real-time player feedback
+
+---
+
+## ⚙️ Tech Stack
+
+### 🖥️ Core Technologies
 - **Java**
-- **Gradle** (for project building and dependency management)
-- **LibGDX** (framework for cross-platform game development)
+- **Gradle** (Project management)
+- **LibGDX** (2D game development)
 
-Special thanks to the creators of **Gradle** for providing an efficient build system that streamlined our project management.
+### 🎨 Design Patterns Implemented
+- **Factory Method**: Entity creation (Obstacles, Diamonds, Power-Ups)
+- **Strategy Pattern**: Flexible collision handling
+- **Singleton Pattern**: AudioManager
 
----
-
-## Game Features
-
-- **Educational Gameplay**: Answer scam-related questions triggered by collecting scrolls and diamonds.
-- **Collision System**: Refactored collision management using the **Strategy Pattern** for flexible and scalable handling.
-- **Scene Management**: Interface-segregated scene system for clean transitions between menu, game, question, pause, and result screens.
-- **Input Management**: Fully customizable key bindings at runtime.
-- **Audio Management**: Centralized background music and sound effects system using the **Singleton Pattern**.
-- **Entity Spawning**: Centralized and extensible spawning of obstacles and power-ups via the **Factory Pattern**.
-- **UI System**: Real-time health and diamond collection indicators through a modular UI Manager.
-- **Scam Quiz Mechanism**: Players must correctly answer questions to receive health boosts or collect diamonds.
-- **Win Condition**: Collect and correctly answer three diamond-triggered questions to win!
+> 🎯 Special thanks to the Gradle and LibGDX communities for providing amazing tools that made this project possible!
 
 ---
 
-## Game Engine Highlights
+## 🧩 Game Engine Features
 
-Our game engine was built with a focus on:
+- **Flexible Collision Management**  
+  → Each entity (Obstacle, Diamond, PowerUp) has its own collision behavior.
 
-- **Scalability**: Easily add new entities, screens, or systems without modifying existing structures.
-- **Reusability**: Reusable collision handlers, input systems, and scene management modules.
-- **Maintainability**: Clear separation of concerns using OOP best practices and SOLID principles.
+- **Scene Management System**  
+  → Smooth screen transitions using an IScreen interface and SceneManager.
 
-**Key Design Patterns Used:**
-- **Singleton Pattern**: For AudioManager, ensuring a single instance throughout the game.
-- **Factory Method Pattern**: For creating game entities dynamically at runtime.
-- **Strategy Pattern**: For handling different collision behaviors modularly.
+- **Input Manager**  
+  → Rebindable keys with real-time updates.
 
----
+- **Audio Manager**  
+  → Sound control without redundant resource loading.
 
-## Limitations and Future Improvements
-
-- **No In-Game Audio Controls**: (e.g., mute, volume adjustments).
-- **No Dynamic Difficulty Adjustment**: Difficulty does not scale based on player skill.
-- **No Gamepad/Controller Support**: Currently only supports keyboard input.
+- **Entity Manager & Spawning System**  
+  → Randomized spawning of obstacles and power-ups.
 
 ---
 
-## Getting Started
+## 🎮 Gameplay Overview
+
+- 🏃 Dodge obstacles while collecting diamonds and scrolls!
+- 📚 Answer scam prevention questions when collecting items.
+- ❤️ Correct answers = Bonus health or progress.
+- 💀 Wrong answers = Health loss!
+- 🏆 Collect and pass 3 diamond quizzes to WIN!
+
+---
+
+## 🚧 Known Limitations
+
+- 🔇 No in-game audio volume/mute control yet
+- 🎚️ No dynamic difficulty scaling
+- 🎮 Controller (Gamepad) support not available (keyboard only)
+
+---
+
+## 🛠️ Getting Started
 
 1. **Clone the repository**:
    ```bash
    git clone <repository-link>
    ```
 
-2. **Build the project using Gradle**:
+2. **Build the project**:
    ```bash
    ./gradlew build
    ```
@@ -73,9 +88,22 @@ Our game engine was built with a focus on:
    ./gradlew run
    ```
 
+Enjoy playing and learning! 🎮📚
+
 ---
 
-## License
+## 🙏 Special Thanks
 
-This project is created as part of an academic module for **Object-Oriented Programming** coursework.  
-It is primarily for educational and demonstration purposes.
+We would like to thank:
+- [Gradle](https://gradle.org/) for seamless project building.
+- [LibGDX](https://libgdx.com/) for providing a powerful framework for 2D games.
+- All scam prevention initiatives whose spirit inspired our game's educational mission.
+
+---
+
+## 📜 License
+
+This project was created for educational and academic purposes.  
+It is intended for learning, demonstration, and showcasing **Object-Oriented Programming** skills.
+
+---
