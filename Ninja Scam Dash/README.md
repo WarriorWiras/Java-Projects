@@ -27,6 +27,7 @@ Our main goal was not only to create a fun and engaging game but also to design 
 - **Java**
 - **Gradle** (Project management)
 - **LibGDX** (2D game development)
+- **VS Code with Gradle for Java Extension or Eclipse IDE for Java Developers** (IDE)
 
 ### 🎨 Design Patterns Implemented
 - **Factory Method**: Entity creation (Obstacles, Diamonds, Power-Ups)
