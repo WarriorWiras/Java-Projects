@@ -1,6 +1,9 @@
 # 🥷💎 Ninja Scam Dash 
 
-**Ninja Scam Dash** is a fun, educational 2D side-scrolling game where players run, dodge, and answer scam-prevention quizzes to win! Built with **Java**, powered by a custom-made **Game Engine**, and managed with **Gradle**. 🎮✨
+**Ninja Scam Dash** is an exciting educational 2D game designed to **raise awareness about scam prevention** through interactive gameplay. Players control a ninja, navigate obstacles, collect power-ups, and answer scam-prevention questions to progress.  
+This game was developed to **test and showcase a custom-built game engine**, designed following strict **Object-Oriented Programming (OOP)** and **SOLID design principles**, using **Java** and **Gradle** for project management.
+
+Our main goal was not only to create a fun and engaging game but also to design and implement a flexible, reusable, and scalable **Game Engine**. 🎮✨
 
 > 📌 **Developed as part of an Object-Oriented Programming project at [Singapore Institute of Technology] (2025).**
 
